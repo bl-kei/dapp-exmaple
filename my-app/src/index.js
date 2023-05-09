@@ -6,7 +6,8 @@ import reportWebVitals from './reportWebVitals';
 // import Time from './element/Time';
 // import MovieList from './movies/MovieList';
 // import TestComp from './lifecycle/TestComp';
-import CalculateComp from './hook/calculateComp';
+// import CalculateComp from './hook/calculateComp';
+import Index from './header';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(
@@ -35,9 +36,15 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 //   </React.StrictMode>
 // );
 
+// root.render(
+//   <React.StrictMode>
+//     <CalculateComp />
+//   </React.StrictMode>
+// );
+
 root.render(
   <React.StrictMode>
-    <CalculateComp />
+    <Index />
   </React.StrictMode>
 );
 
