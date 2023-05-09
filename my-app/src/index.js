@@ -4,7 +4,8 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 // import Course from './jsx/Course';
 // import Time from './element/Time';
-import MovieList from './movies/MovieList';
+// import MovieList from './movies/MovieList';
+import TestComp from './lifecycle/TestComp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(
@@ -21,9 +22,15 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 //   );
 // }, 1000);
 
+// root.render(
+//   <React.StrictMode>
+//     <MovieList />
+//   </React.StrictMode>
+// );
+
 root.render(
   <React.StrictMode>
-    <MovieList />
+    <TestComp />
   </React.StrictMode>
 );
 
