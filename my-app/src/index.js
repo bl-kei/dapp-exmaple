@@ -8,7 +8,8 @@ import reportWebVitals from './reportWebVitals';
 // import TestComp from './lifecycle/TestComp';
 // import CalculateComp from './hook/calculateComp';
 // import Index from './header';
-import MemberList from './list/MemberList';
+// import MemberList from './list/MemberList';
+import LightDarkMode from './context/LightDarkMode';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(
@@ -49,9 +50,15 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 //   </React.StrictMode>
 // );
 
+// root.render(
+//   <React.StrictMode>
+//     <MemberList />
+//   </React.StrictMode>
+// );
+
 root.render(
   <React.StrictMode>
-    <MemberList />
+    <LightDarkMode />
   </React.StrictMode>
 );
 
