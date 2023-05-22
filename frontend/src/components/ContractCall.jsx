@@ -116,7 +116,7 @@ export function ContractCall() {
         const newGreeting = await greetingContract.greet();
         window.alert(`Success : ${newGreeting}`);
 
-        if (newGreeting != greeting) {
+        if (newGreeting !== greeting) {
           setGreeting(newGreeting);
         }
       } catch (error) {}
